@@ -1,0 +1,32 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+        "src/resource.js",
+
+        "src/games/Game_Human.js",
+        "src/games/Game_Bullet.js",
+        "src/games/Game_Bird.js",
+        "src/games/Game_Shit.js",
+
+        "src/sprites/Sprite_Base.js",
+        "src/sprites/Sprite_Bg.js",
+        "src/sprites/Sprite_Human.js",
+        "src/sprites/Sprite_Bullet.js",
+        "src/sprites/Sprite_Bird.js",
+        "src/sprites/Sprite_Shit.js",
+
+        "src/scenes/Scene_Main.js",
+
+        "src/app.js"
+    ]
+}
